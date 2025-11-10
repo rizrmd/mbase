@@ -1,0 +1,119 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+*/dist/
+build/
+*/build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*/.env
+*/.env.*
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Temporary folders
+tmp/
+temp/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Bun lock file duplicates (keep only root)
+*/bun.lock
+
+# AI/ML files
+*.ai
+*.ml
+*.model
+weights/
+checkpoints/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+.parcel-cache/
+.vite/
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Lock files (keep package-lock.json but ignore others)
+yarn.lock
+pnpm-lock.yaml
+
+# Test files
+test-results/
+playwright-report/
+test-results.xml
+
+# TypeScript
+*.tsbuildinfo
+
+# Local development
+.local
+.local.*
+
+# Crush AI assistant files
+.crush/
+
+# Port-specific temporary files
+*.5050
+*.5070
+*.5170
