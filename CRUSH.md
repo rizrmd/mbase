@@ -17,12 +17,12 @@ This file provides guidance to AI agents working with code in this repository.
 
 ### Individual Services
 - `bun run dev:backend` - Start backend only (from backend directory: `bun run dev`)
-- `bun run dev:frontend` - Start frontend only (from frontend directory: `npm run dev`)
+- `bun run dev:frontend` - Start frontend only (from frontend directory: `bun run dev`)
 
 ### Frontend-specific Commands
-- `npm run build` - Build frontend for production
-- `npm run lint` - Run ESLint on frontend code
-- `npm run preview` - Preview production build
+- `bun run build` - Build frontend for production
+- `bun run lint` - Run ESLint on frontend code
+- `bun run preview` - Preview production build
 
 ## Architecture Overview
 
@@ -58,7 +58,7 @@ Key frontend features:
 The project uses a unified development script (`scripts/dev.ts`) that:
 1. Kills existing processes on ports 5050 and 5070
 2. Starts backend with Bun
-3. Starts frontend with npm/Vite
+3. Starts frontend with bun/Vite
 4. Provides colored console output for both services
 5. Handles graceful shutdown on Ctrl+C
 
